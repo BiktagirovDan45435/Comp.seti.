@@ -1,0 +1,20 @@
+Задание 1?
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Страница 1</title>
+</head>
+<body link="#FF0000" alink="#00FF00" vlink="#0000FF">
+    <h1>Страница 1</h1>
+    <a href="Resourses/2.html" title="Перейти на страницу 2">Перейти</a>
+
+    <h2>Список заданий</h2>
+    <ul>
+        <li><a href="lecture4_task1.html" target="_blank" title="Задание 1 из лекции 4">Задание 1</a></li>
+        <li><a href="lecture4_task2.html" target="_blank" title="Задание 2 из лекции 4">Задание 2</a></li>
+        <li><a href="lecture4_task3.html" target="_blank" title="Задание 3 из лекции 4">Задание 3</a></li>
+        <li><a href="lecture4_task4.html" target="_blank" title="Задание 4 из лекции 4">Задание 4</a></li>
+    </ol>
+</body>
+</html>

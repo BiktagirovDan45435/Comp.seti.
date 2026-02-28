@@ -1,0 +1,83 @@
+Задание 2?
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Страница 1</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            color: #2c3e50;
+        }
+        .task-list {
+            margin-top: 20px;
+            padding-left: 20px;
+        }
+        .task-list li {
+            margin-bottom: 10px;
+        }
+        .task-list a {
+            text-decoration: none;
+            color: #3498db;
+            border-bottom: 1px dashed #3498db;
+            padding-bottom: 2px;
+        }
+        .task-list a:hover {
+            color: #2980b9;
+            border-bottom-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+    <h1>Страница 1</h1>
+
+    <!-- Основная ссылка (как было) -->
+    <p><a href="Resourses/2.html" title="Перейти на страницу 2">Перейти</a></p>
+
+    <!-- Новый список заданий -->
+    <section>
+        <h2>Задания</h2>
+        <ul class="task-list">
+            <li>
+                <a 
+                    href="path/to/lecture4/task1.html"
+                    target="_blank"
+                    title="Задание 1: изучить основы HTML-разметки, создать простой документ с заголовками и абзацами."
+                >
+                    Задание 1
+                </a>
+            </li>
+            <li>
+                <a
+                    href="path/to/lecture4/task2.html"
+                    target="_blank"
+                    title="Задание 2: поработать с таблицами в HTML, создать таблицу с данными и стилями."
+                >
+                    Задание 2
+                </a>
+            </li>
+            <li>
+                <a
+                    href="path/to/lecture4/task3.html"
+                    target="_blank"
+                    title="Задание 3: освоить списки в HTML — упорядоченные, неупорядоченные и списки определений."
+                >
+                    Задание 3
+                </a>
+            </li>
+            <li>
+                <a
+                    href="path/to/lecture4/task4.html"
+                    target="_blank"
+                    title="Задание 4: создать форму с различными полями ввода, кнопками и валидацией."
+                >
+                    Задание 4
+                </a>
+            </li>
+        </ul>
+    </section>
+</body>
+</html 
