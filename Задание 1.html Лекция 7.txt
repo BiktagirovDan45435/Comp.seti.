@@ -1,0 +1,28 @@
+  Задание1 html
+ <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">  
+<html>  
+<head>  
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">  
+<title>Таблица</title>  
+</head>  
+<body>  
+<table width="600" align="center" cellpadding="4" cellspacing="0" border="1">  
+<tr>  
+<td width="150" valign="top">Левая колонка</td>  
+<td valign="top">Правая колонка</td>  
+</tr>  
+</table>  
+</body>  
+</html>  
+``` [1](https://htmlbook.ru/practical/sozdanie-tablitsy)  
+
+**Объяснение**:  
+* Ширина таблицы — 600 пикселей.  
+* Атрибут align — «центр».  
+* Атрибут valign — выравнивание содержимого колонок по верхнему краю.  
+* В теге <td> указана ширина левой колонки — 150 пикселей.  
+* В теге <td> — текст «Левая колонка» и «Правая колонка».  
+
+ [1](https://htmlbook.ru/practical/sozdanie-tablitsy)
+
+**Важно**: при создании таблиц рекомендуется, чтобы во всех рядах было одинаковое количество ячеек — разное количество может привести к ошибкам. [6](https://seodon.ru/html/tables.php)
