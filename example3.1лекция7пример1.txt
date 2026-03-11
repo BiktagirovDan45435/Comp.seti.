@@ -1,0 +1,49 @@
+Пример 1
+index.html
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>Фреймы</title>
+ </head>
+ <framegeset cols="100,*">
+  <frame src="menu.html" name="MENU">
+  <frame src="content.html" name="MENU">
+  <frameset>
+</html> 
+
+index.html
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>Фреймы</title>
+ </head>
+ <frameset cols="100">
+   <frame scr="menu.html"name="MENU>
+   <frame scr="content.html"name="CONTENT>
+ </frameset>
+</html>
+
+menu.html
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>Навигация по сайту</title>
+ </head>
+ <body style="background: #f0f0f0">
+   <p>МЕНЮ</P>
+ </body>
+</html>
+content.html
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>Содержание по сайта</title>
+ </head>
+ <body style="background: #f0f0f0">
+   <p>СОДЕРЖАНИЕ</P>
+ </body>
+</html>
