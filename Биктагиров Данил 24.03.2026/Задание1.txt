@@ -1,0 +1,145 @@
+Пример 1.
+<!DOCTYPE html>
+   <html>
+    <head>
+    <meta charset="utf-8">
+    <title>формы</title>
+   </head>
+   <body>  
+    <form>
+     <p>
+     <input name="a">
+     <input type="submit">
+     </p>
+    </from>
+   </body>
+ </html>
+Пример 2
+<!DOCTYPE html>
+   <html>
+    <head>
+    <meta charset="utf-8">
+    <title>формы</title>
+   </head>
+   <body>  
+    <form> method="POST">
+     </p><input name="a"> <input type="submit"></p>
+    </from>
+   </body>
+ </html>
+Пример 3.
+<!DOCTYPE html>
+   <html>
+    <head>
+    <meta charset="utf-8">
+    <title>формы</title>
+   </head>
+   <body>  
+    <form>
+     <p>
+     <input TYPE="TEXT" NAME="TEXT" SIZE="20" MAXLENGTH="50" VALUE="ВВЕДИТЕ ТЕКСТ">
+     </p>
+     <input type="submit">
+    </from>
+   </body>
+ </html>
+Пример 4.
+<!DOCTYPE html>
+   <html>
+    <head>
+    <meta charset="utf-8">
+    <title>формы</title>
+   </head>
+   <body>  
+    <form>
+     <p>
+     <input TYPE="PASSWORD" NAME="PASS" SIZE="20"  VALUE="QWERTY">
+     </p>
+     <input type="submit">
+    </from>
+   </body>
+ </html>
+Пример 5.
+<!DOCTYPE html>
+   <html>
+    <head>
+    <meta charset="utf-8">
+    <title>формы</title>
+   </head>
+   <body>  
+    <form>
+     <p>
+      <form name="forma1">
+    Какими языками вы владеете:<br>
+     <input type="checkbox" name="1an1" value="english"  checked>английский
+     <input type="checkbox" name="1an2" value="german"> нмецкий
+     <input type="checkbox" name= "1an3" value="spanish"> испанский
+     <input type="checkbox" name= "1an4" value="french"> французский
+     <input type="submit"> 
+     </p>
+    </from>
+   </body>
+ </html>
+Пример 6.
+<!DOCTYPE html>
+   <html>
+    <head>
+    <meta charset="utf-8">
+    <title>формы</title>
+   </head>
+   <body>  
+    <form>
+    Укажите ваш пол:<br>
+     <input type="checkbox" name="po1" value="М"checked>мужской
+     <input type="checkbox" name="po1 " value="Ж">женский
+     <input type="submit"> 
+    </from>
+   </body>
+ </html>
+Пример 7.
+<form name="formal">
+  Какой язык вы хотите изучать:
+  <select name="language" size="1">
+  <option selected value="html">html
+  <option value="php">php
+  <option value="java">java
+  </select><br><br>
+  Какое время вы готовы на это потратить:<br>
+  <select name="time" size="3">
+  <select selectd value="1">1 месяц
+  <select vamlue="2">2 месяча
+  <option value="3">3 месяча
+  </select><br><br>
+  Какие дни недели для занятий вас устроят:<br>
+  (выбирайте с нажатой клавишей ctrl)<br>
+  <select name="day" size="7"> nutiple>
+   <option selected value="mon">понедельник
+   <option value="tue">вторние
+   <option value="wen">среда
+   <option setected value="thu">четверг
+   <option value="fri">пятница
+   <option value="sat">суббота
+   <option value="san">воскресенье
+   </select>
+  </form>
+Пример8
+<form name="formal">
+ Каталог сайтов:<br>
+  <select name="catalog" size="9">
+   <optgroup label="Компьютеры">
+    <option value="1">интернет</option>
+    <option value="2">мобильники</option>
+    <option value="3">hardware</option>
+   </optgroup>
+   <optgroup label="Работы">
+   <option value="4">вакансии</option>
+    <option value="5">трудоустройство</option>
+    <option value="6">езюме</option>
+  </optgroup>
+   <optgroup label="Дом">
+   <option value="7">здоровье</option>
+    <option value="8">красота</option>
+    <option value="9">дети</option>
+  </optgroup>
+ </select.
+</form> 
